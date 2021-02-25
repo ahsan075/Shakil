@@ -1,0 +1,158 @@
+
+body{
+    background: linear-gradient(to right,rgba(53, 53, 162, 0.877),rgba(131, 44, 44, 0.877));
+}
+
+.heading{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+    color: antiquewhite;
+    background-color: rgb(63, 126, 63);
+    left: 45%;
+    top: 10%;
+}
+
+.draw{
+    position: absolute;
+    top: 40%;
+    left: 45.8%;
+    background-color: rgb(180, 90, 16);
+    color: antiquewhite;
+    padding: 2%;
+}
+
+#counter{
+   display: none;
+}
+
+.draw:hover{
+    background-color: rgb(209, 126, 58);
+    color: antiquewhite;
+}
+
+
+.image{
+    width: 30%;
+    height: 20vh;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    animation: anime 3s;
+}
+
+.box1{
+    width: 30%;
+    height: 50vh;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    animation: Anime2 5s;
+}
+
+@keyframes anime{
+    0%{
+        transform: scale(1.4);
+
+    }
+    50%{
+        transform: rotateY(36000deg);
+    }
+}
+
+@keyframes Anime2{
+    0%{
+        top: 0;
+
+    }
+    30%{
+        top:50%;
+    }
+    60%{
+       transform: rotateY(180deg);
+    }
+    90%{
+        transform: scale(1.5);
+    }
+}
+
+h5{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+h6{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+
+
+
+#Groza{
+    display: none;
+}
+.back{
+    display: none;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    padding: 2%;
+    background-color: rgb(8, 139, 8);
+    color: white;
+}
+#nothing{
+    display: none;
+}
+#m416{
+    display: none;
+}
+#awm{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+
+    .heading{
+        left: 39.5%;
+        top: 20%;
+    }
+
+    .draw{
+        top: 40%;
+        left: 41.5%;
+    }
+
+    .box1{
+        width: 70%;
+        height: 50vh;
+        top: 20%;
+        left: 15%;
+    }
+
+    h6{
+        padding-top: 15%;
+    }
+
+    .back{
+        top: 55%;
+        left: 43.5%;
+    }
+
+    .image{
+        width: 40%;
+        height: 20vh;
+        top: 20%;
+        left: 28.5%;
+    }
+
+    h5{
+        padding-top: 5%;
+    }
+
+}
