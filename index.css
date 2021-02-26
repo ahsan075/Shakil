@@ -39,8 +39,32 @@ body{
     position: absolute;
     top: 25%;
     left: 35%;
+    animation: Anime3 2s;
+}
+
+
+@keyframes Anime3{
+    0%{
+        transform: scale(1);
+
+    }
+    80%{
+        transform: scale(1.4);
+    }
+}
+
+
+.img1{
+    display: none;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    z-index: -1;
+    top: 10%;
+    left: 22.5%;
     animation: anime 3s;
 }
+
 
 .box1{
     width: 30%;
@@ -57,7 +81,7 @@ body{
 
     }
     50%{
-        transform: rotateY(36000deg);
+        transform: rotateY(1600deg);
     }
 }
 
@@ -89,6 +113,13 @@ h6{
     padding-top: 10%;
     font-size: 1.5rem;
     color: whitesmoke;
+    animation: anime4 3s;
+}
+
+@keyframes anime4{
+    0%{
+        transform: scale(1.5);
+    }
 }
 
 
@@ -115,7 +146,63 @@ h6{
 #awm{
     display: none;
 }
+#helmet{
+    display: none;
+}
+#akm{
+    display: none;
+}
+#dp{
+    display: none;
+}
+#flayer{
+    display: none;
+}
+#m249{
+    display: none;
+}
+#scarL{
+    display: none;
+}
 
+
+
+
+#bag1{
+    display: none;
+}
+#bag2{
+    display: none;
+}
+#bag3{
+    display: none;
+}
+
+
+
+#dress1{
+    display: none;
+}
+#dress2{
+    display: none;
+}
+#dress3{
+    display: none;
+}
+#dress4{
+    display: none;
+}
+#dress5{
+    display: none;
+}
+
+
+#helmet2{
+    display: none;
+}
+#helmet3{
+    display: none;
+}
 @media only screen and (max-width:768px){
 
     .heading{
