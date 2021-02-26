@@ -55,7 +55,7 @@ body{
 
 
 .img1{
-    display: block;
+    display: none;
     position: absolute;
     height: 20%;
     width: 30%;
